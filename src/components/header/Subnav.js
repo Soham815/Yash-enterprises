@@ -5,17 +5,12 @@ function Subnav() {
 			<div className="icon">
 				<figure className="icon__box">
 					<ion-icon name="heart-outline" className="icon__icon"></ion-icon>
-					{/* <!-- <figcaption className="icon__description"> */}
-					{/* <span>Wishlist</span> */}
-					{/* </figcaption> --> */}
 				</figure>
 				<figure className="icon__box">
 					<ion-icon name="cart-outline" className="icon__icon"></ion-icon>
-					{/* <!-- <figcaption className="icon__description">Cart</figcaption> --> */}
 				</figure>
 				<figure className="icon__box">
 					<ion-icon name="albums-outline" className="icon__icon"></ion-icon>
-					{/* <!-- <figcaption className="icon__description">Orders</figcaption> --> */}
 				</figure>
 			</div>
 			<div className="nav__seperation">&nbsp;</div>

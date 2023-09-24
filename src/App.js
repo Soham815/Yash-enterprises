@@ -8,7 +8,7 @@ function App() {
 	return (
 		<main>
 			<Header></Header>
-			<div classNameName="container">
+			<div className="container">
 				<Hero></Hero>
 				<Features></Features>
 				<TopCompanies></TopCompanies>

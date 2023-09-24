@@ -466,7 +466,7 @@ $breakpoint argument choices:-
 			rgba(250, 229, 211, 0.82),
 			rgba(250, 229, 211, 0.82)
 		),
-		url("../img/hero6.jpg");
+		url("../public/img/hero6.jpg");
 	background-size: cover;
 	padding: 4rem 8rem;
 	display: grid;
