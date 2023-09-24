@@ -24,8 +24,8 @@ function TopCompanies() {
 				<div className="top-company__text-box">
 					<h3 className="top-company__heading">RAMBANDHU</h3>
 					<p className="top-company__text">
-						Think about adding spices that make your food nice. We've got sauces
-						and seasonings that are flavoursome. No stress, just tasty meals.
+						Rambandhu has the wide range of spices which can make your food
+						extra delicious.Enjoy the flavours with the pinch of our love .
 					</p>
 
 					<a href="#" className="btn top-company__btn">
