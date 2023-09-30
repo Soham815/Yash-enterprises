@@ -1,7 +1,7 @@
 import "./productCard.css";
 import "../style.css";
 
-function ProductCard({ product, companies }) {
+function ProductCard({ product, company }) {
 	const mrp = Number(product.mrp);
 	const rate = Number(product.wholesalePrice);
 	const discount = ((mrp - rate) / mrp) * 100;
@@ -18,7 +18,7 @@ function ProductCard({ product, companies }) {
 					className="prod-result__wishlist__icon"
 				></ion-icon>
 			</button>
-			<h3 className="prod-result__company-name">{companies.companyName}</h3>
+			<h3 className="prod-result__company-name">{company.companyName}</h3>
 			<h4 className="prod-result__title">{product.name}</h4>
 
 			<div className="prod-result__prices">

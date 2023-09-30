@@ -15,6 +15,7 @@ import "./style.css";
 
 function App() {
 	// search state
+	console.log(ProductDB);
 	const [searchText, setSearchText] = useState("");
 	const [companies, setProducts] = useState(ProductDB);
 
@@ -25,7 +26,7 @@ function App() {
 			//write logic here to filter products.
 
 			setProducts((companies) =>
-				companies.products.filter((product) =>
+				companies.filter((product) =>
 					product.name
 						.toLocaleLowerCase()
 						.includes(searchText.toLocaleLowerCase())

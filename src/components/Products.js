@@ -1,10 +1,10 @@
-import React from "react";
 import ProductCard from "./ProductCard";
+import Companies from "./Companies";
 
-const Products = ({ companies }) => {
+const Products = (company) => {
 	return (
 		<>
-			{companies.map((product, index) => (
+			{company.map((product, index) => (
 				<ProductCard product={product} key={index} />
 			))}
 		</>
