@@ -4,13 +4,9 @@ import "../style.css";
 
 function Header() {
 	return (
-		<header classNameName="header">
-			<nav classNameName="nav">
-				<img
-					src="img/logo-white.png"
-					alt="shop logo"
-					classNameName="nav__logo"
-				/>
+		<header className="header">
+			<nav className="nav">
+				<img src="img/logo-white.png" alt="shop logo" className="nav__logo" />
 
 				<Search></Search>
 				<Subnav></Subnav>
